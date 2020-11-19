@@ -8,7 +8,7 @@ import {
   ManyToOne,
 } from 'typeorm';
 
-import Category from './Category.model';
+import Category from './Category';
 
 @Entity('transactions')
 class Transaction {

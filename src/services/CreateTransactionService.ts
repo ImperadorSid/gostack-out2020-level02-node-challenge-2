@@ -1,8 +1,8 @@
 import { getCustomRepository } from 'typeorm';
 
-import Transaction from '../models/Transaction.model';
-import TransactionsRepository from '../repositories/Transactions.repository';
-import CategoriesRepository from '../repositories/Categories.repository';
+import Transaction from '../models/Transaction';
+import TransactionsRepository from '../repositories/TransactionsRepository';
+import CategoriesRepository from '../repositories/CategoriesRepository';
 import AppError from '../errors/AppError';
 
 interface Request {

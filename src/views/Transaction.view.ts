@@ -1,4 +1,4 @@
-import Transaction from '../models/Transaction.model';
+import Transaction from '../models/Transaction';
 
 export default {
   render(transaction: Transaction): Omit<Transaction, 'categoryId'> {

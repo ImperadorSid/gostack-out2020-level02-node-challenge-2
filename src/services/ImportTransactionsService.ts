@@ -2,8 +2,8 @@ import csvParse from 'csv-parse';
 import fs from 'fs';
 import path from 'path';
 
-import Transaction from '../models/Transaction.model';
-import CreateTransactionService from './CreateTransaction.service';
+import Transaction from '../models/Transaction';
+import CreateTransactionService from './CreateTransactionService';
 import uploadConfig from '../config/upload';
 
 interface Request {
